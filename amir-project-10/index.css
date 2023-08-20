@@ -1,0 +1,86 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Vazirmatn:wght@200;300&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:'DM Sans', sans-serif;
+    overflow-y: hidden;
+}
+.container{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+}
+
+.img{
+    width: 50%;
+    text-align: right;
+}
+
+.content{
+    width: 50%;
+    margin: 89px 73px;
+}
+
+
+button{
+    margin-top: 45px;
+    width: 33%;
+    padding: 14px;
+    background-color: #E93A7D;
+    border-radius: 100px;
+    border: none;
+    color: white;
+    font-size: 17px;
+}
+
+.text-content{
+    display: flex;
+    margin-top: 121px;
+    flex-direction: row-reverse;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.text-container{
+    width: 45%;
+}
+
+
+.content-first-h3{
+    font-size: 42px;
+    font-weight: 700;
+    color: #1E0E62;
+}
+
+.content-first-h5{
+    font-size: 22px;
+    font-weight: 500;
+    color: #15143966;
+    
+}
+
+.content-container{
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+
+}
+
+.h5-text-container{
+    font-size: 22px;
+    font-weight: 500;
+    color: #1E0E62;
+    margin-top: 20px;
+
+}
+
+.p-text-container{
+    font-size: 16px;
+    font-weight: 400;
+    color:#15143966;
+    margin-top: 10px;
+}
