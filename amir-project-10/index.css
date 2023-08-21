@@ -20,15 +20,19 @@
     text-align: right;
 }
 
+.background-img{
+    width: 100%;
+}
+
 .content{
     width: 50%;
-    margin: 89px 73px;
+    margin: 89px 81px;
 }
 
 
 button{
     margin-top: 45px;
-    width: 33%;
+    width: 154px;
     padding: 14px;
     background-color: #E93A7D;
     border-radius: 100px;
