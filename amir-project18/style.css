@@ -201,6 +201,7 @@ table{
 
 .first-content-image{
     position: relative;
+    box-shadow: 2px 2px 6px lightgray;
 }
 
 .first-content-text{
