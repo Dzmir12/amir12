@@ -1,0 +1,156 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Figtree:wght@400;500&family=Playfair+Display:ital,wght@0,900;1,900&family=Raleway:wght@800;900&family=Vazirmatn:wght@200;300&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Figtree', sans-serif;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    height: 100vh;
+}
+
+.login{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.login-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin-top: 89px; */
+    margin: 74px 0;
+    height: 708px;
+}
+
+.image{
+    width: 50%;
+    display: flex;
+    position: relative;
+}
+
+.right-image{
+    /* flex-grow: 1; */
+    height: 96vh;
+    /* margin-right: 24px;
+    margin-top: 12px; */
+    margin: 16px 0;
+}
+
+.image-text{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
+
+.headline{
+    font-size: 45px;
+    font-weight: 500;
+    color: #FFFFFF;
+    margin-top: 116px;
+    margin-left: 62px;
+    width: 538px;
+    
+}
+
+.describe {
+    font-size: 24px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-left: 70px;
+}
+
+.describe1{
+    margin-top: 17px;
+    width: 546px;
+}
+
+.describe2{
+    margin-top: 439px;
+}
+
+
+.title{
+    font-size: 50px;
+    font-weight: 500;
+    color:  #000000;
+}
+
+.trial-describe{
+    font-size: 13px;
+    font-weight: 500;
+    color:  #000000;
+    margin-right: 162px;
+    margin-top: 64px;
+}
+
+.login-input{
+    width: 400px;
+    height: 60px;
+    border-radius: 10px;
+    border: 1px solid  #00000066;
+}
+
+.button-Create-account{
+    width: 400px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-size: 17px;
+    font-weight: 500;
+    border: none;
+}
+
+.login-text{
+    font-size: 13px;
+    font-weight: 500;
+    color:  #00000066;
+    margin-right: 203px;
+    margin-top: 16px;
+}
+
+.login-a{
+    color: #000000;
+}
+
+.btn-apple-sinup{
+    width: 400px;
+    height: 60px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    margin-top: 64px;
+    border: none;
+}
+
+.p-btn {
+    font-size: 17px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.background-color-fixed{
+    background-color: #FFFFFF;
+    color: #000000;
+    border: 1px solid #000000;
+    margin-top: 24px;
+}
+
+.fixed{
+    margin-top: 16px;
+}
+
+.margine-fixed{
+    margin-top: 24px;
+}
