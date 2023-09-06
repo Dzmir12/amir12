@@ -115,6 +115,26 @@
 
 
 
+// tamrin 4
 
+// const letter = prompt("enter your letters: ");
 
+// function counter(letterStr) {
+//   letterStr = letterStr.toLowerCase();
+//   const copiedLetterStr = [...letterStr];
+//   const duplicateList = [];
+//   for (const word1 of letterStr) {
+//     let duplicateCounter = 0;
+//     for (const word2 of copiedLetterStr) {
+//       if (word1 === word2) {
+//         duplicateCounter += 1;
+//       }
+//     }
+//     if (duplicateCounter > 1 && !duplicateList.includes(word1)) {
+//       duplicateList.push(word1, duplicateCounter);
+//     }
+//   }
+//   return duplicateList.join('');
+// }
+// console.log(counter(letter));
 
