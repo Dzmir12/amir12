@@ -1,0 +1,16 @@
+
+.input-button{
+  display: flex;
+}
+
+.buttones{
+  display: flex;
+}
+
+button {
+  width: 100px;
+}
+
+input{
+  font-size: 2rem;
+}
