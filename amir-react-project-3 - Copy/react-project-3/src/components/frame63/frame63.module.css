@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700&display=swap');
+/* font-family: 'Inter', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+.Frame63 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+}
+
+.Frame63Image {
+    width: 7vw;
+}
+
+.Frame631stP {
+    font-weight: 600;
+    font-size: 1vw;
+    color: #020D37;
+    font-family: 'Inter', sans-serif;
+    margin-top: 10% ;
+    width:26vw ;
+}
+
+.Frame632stP {
+    font-weight: 500;
+    font-size: 1vw;
+    color:  #4C526A;
+    width: 20vw;
+    font-family: 'Inter', sans-serif;
+    margin-top: 3% ;
+}
+
+
+/* Tablet */
+@media (min-width:481px) and (max-width:768px) {
+    
+    .Frame63Image {
+        width: 9vw;
+    }
+
+    .Frame631stP {
+        font-size: 2vw;
+    }
+
+    .Frame632stP {
+        width: 33vw;
+        font-size: 2vw;
+    }
+    
+}
+
+
+/* mobile */
+@media (min-width:320px) and (max-width:481px) {
+
+    .Frame63Image {
+        width: 17vw;
+    }
+
+    .Frame631stP {
+        font-size: 5vw;
+        width: 79vw;
+    }
+
+    .Frame632stP {
+        width: 83vw;
+        font-size: 4vw;
+    }
+ 
+}

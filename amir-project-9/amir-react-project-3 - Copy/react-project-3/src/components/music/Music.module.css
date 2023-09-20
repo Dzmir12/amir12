@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700&display=swap');
+/* font-family: 'Inter', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+.Music {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    border-bottom: 2px solid  #EEEEEE;
+    align-items: center;
+    margin-left: 3%;
+    margin-bottom: 3%;
+}
+
+.musicName {
+    display: flex;
+    flex-direction: column; 
+    margin-top: -3%;
+}
+
+.musicName1 {
+    font-size: 2vw;
+    font-weight: 500;
+    color:  #020D37;
+    font-family: 'Inter', sans-serif; 
+    margin-bottom: 2%;
+}
+
+.musictime {
+    font-size: 1vw;
+    font-weight: 400;
+    color:  #4C526A;
+    font-family: 'Inter', sans-serif; 
+    margin-bottom: 2%;
+
+}
+
+.MusicThiredP {
+    font-size: 2vw;
+    width: 30vw;
+    font-weight: 500;
+    color:   #4C526A;
+    font-family: 'Inter', sans-serif; 
+    margin-bottom: 2%;
+    
+}
+
+.MusicForthP {
+    font-size: 2vw;
+    font-weight: 500;
+    color:   #4C526A;
+    font-family: 'Inter', sans-serif; 
+    margin-bottom: 2%;
+}
+
+.musicImageContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.music1 {
+    width: 4vw;
+    margin-bottom: 2%;
+}
+
+.music2 {
+ width: 5vw;
+ margin-bottom: 2%;
+}
+
+/* Tablet */
+@media (min-width:481px) and (max-width:768px) {
+    
+    .music1 {
+        width: 6vw;
+    }
+
+    .musicName1 {
+        font-size: 3vw;
+    }
+
+    .musictime {
+        font-size: 2vw;
+    }
+
+    .MusicForthP {
+        font-size: 3vw;
+    }
+
+    .music2 {
+        width: 6vw;
+    }
+
+    .MusicThiredP {
+        display: none;
+    }
+    
+}
+
+/* Mobile */
+@media (min-width:320px) and (max-width:481px) {
+
+    .music1 {
+        width: 9vw;
+    }
+
+    .musicName1 {
+        font-size: 4vw;
+    }
+
+    .musictime {
+        font-size: 3vw;
+    }
+
+    .MusicForthP {
+        display: none;
+    }
+
+    .music2 {
+        width: 10vw;
+    }
+
+    .MusicThiredP {
+        display: none;
+    }
+
+    #music2 {
+        display: none;
+    }
+
+    .musicName {
+        width: 54%;
+    }
+    
+}

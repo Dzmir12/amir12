@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700&display=swap');
+/* font-family: 'Inter', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+.home {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.firstContent {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    align-items: center;
+    margin: 6% 0;
+}
+
+.firstContentP {
+    font-size:   3vw;;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: #020D37;
+    
+}
+
+.secondContent {
+    width: 90%;
+    margin-top: 10%;
+}
+
+.secondContentFirstP {
+    font-weight: 600;
+    font-size: 4vw;
+    color:  #020D37;
+    font-family: 'Poppins', sans-serif;
+}
+
+.secondContentSecondP {
+    font-size: 2vw;
+    font-weight: 500;
+    color:  #4C526A;
+    font-family: 'Inter', sans-serif
+}
+
+.secondContentPContainer {
+    display: flex;
+    width: 62%;
+    justify-content: space-evenly;
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+
+.secondContentSecondP:hover {
+    color:  #020D37;
+    border-bottom: 2px solid #020D37 ;
+    padding: 4px 0;
+}
+
+.secondContenta {
+    font-weight: 600;
+    font-size: 2vw;;
+    color:  #0432DF;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 3%;
+    margin-top: 3%;
+}
+
+.thirdContent{
+    display: flex;
+    width: 90%;
+    margin-top: 10%;
+    flex-direction: column;
+}
+
+.thirdContentOnestP {
+    font-size: 3vw;
+    font-weight: 600;
+    color: #020D37;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.forthContent {
+    width: 90%;
+    display: flex;
+    margin-top: 11%;
+}
+
+.forthContentFirstContent {
+    display: flex;
+    flex-direction: column;
+    width: 41%;
+}
+
+.forthContentSecondContent {
+    display: flex;
+    width: 59%;
+    margin-left: 4%;
+}
+
+.forthContentFirstP {
+    font-weight: 400;
+    font-size: 14px;
+    color:  #F59E00;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.forthContentSecondP {
+    font-weight: 600;
+    font-size: 3vw;
+    color: #020D37;
+    font-family: 'Poppins', sans-serif;
+    color:  #020D37;
+    width: 37vw;
+}
+
+
+.forthContentSecondContent1 {
+    display: flex;
+    flex-direction: column;
+    width: 50%; 
+}
+
+.forthContentSecondContent2 {
+    display: flex;
+    flex-direction: column;
+    width: 50%; 
+}
+
+.fifthContent {
+    width: 90%;
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+    margin-top: 10%;
+}
+
+.fifthContentFirstP {
+    font-weight: 600;
+    font-size: 3vw;
+    color: #020D37;
+    font-family: 'Poppins', sans-serif;
+}
+
+.fifthContentContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.divider {
+    margin-top: 10%;
+    width: 5vw;
+}
+
+/* Tablet */
+@media (min-width:481px) and (max-width:768px) {
+    
+    .firstContentP {
+        width: 99vw;
+        font-size: 3vw;
+        text-align: center;                                                                                                              
+    }
+
+    .thirdContentOnestP {
+        font-size: 4vw;
+    }
+
+    .forthContent {
+        flex-direction: column;
+
+    }
+
+    .forthContentFirstContent {
+        width: 100%;
+        align-items: center;
+    }
+
+    .forthContentSecondP {
+        font-size: 4vw;
+        width: 79vw;
+        text-align: center;
+    }
+
+    .forthContentSecondContent {
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    .forthContentSecondContent2 {
+        margin-left: 16%;
+    }
+
+    .forthContentFirstP {
+        font-size: 2vw;
+    }
+
+    .removeTestimoni {
+        display: none;
+    }
+    
+}
+
+/* mobile */
+@media (min-width:320px) and (max-width:481px) {
+
+    .firstContentP {
+        width: 63vw;
+        font-size: 5vw;
+        text-align: center;                                                                                                              
+    }
+
+    .secondContentFirstP {
+        font-size: 6vw;
+    }
+
+    #secondContentRemove {
+        display: none;
+    }
+
+    .secondContentSecondP {
+        font-size: 4vw;
+    }
+
+    .secondContenta {
+        font-size: 3vw;
+    }
+
+    .thirdContentOnestP {
+        font-size: 6vw;
+    }
+    
+    .forthContent {
+        flex-direction: column;
+
+    }
+
+    .forthContentFirstContent {
+        width: 100%;
+        align-items: center;
+    }
+
+    .forthContentSecondP {
+        font-size: 6vw;
+        width: 79vw;
+        text-align: center;
+    }
+
+    .forthContentSecondContent {
+        width: 100%;
+        margin-left: 0%;
+        flex-direction: column;
+    }
+    .forthContentSecondContent1 {
+        width: 100%;
+    }
+
+    .forthContentSecondContent2 {
+        width: 100%;
+    }
+
+    .forthContentFirstP {
+        font-size: 3vw;
+    }
+
+    .removeTestimoni {
+        display: none;
+    }
+
+    .fifthContentFirstP {
+        font-size: 6vw;
+        width: 71vw;
+        text-align: center;
+    }
+
+    .fifthContentContainer {
+        justify-content: center;
+    }
+     
+    .removeTestimoni2 {
+        display: none;
+    }
+
+    .divider { 
+        width: 14vw;
+    }
+}

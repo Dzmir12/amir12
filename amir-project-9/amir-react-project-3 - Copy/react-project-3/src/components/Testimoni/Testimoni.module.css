@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700&display=swap');
+/* font-family: 'Inter', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+.Testimoni {
+    width: 28vw;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid  #EEEEEE;
+    align-items: center;
+    margin-top: 19%;
+    border-radius: 8px;
+}
+
+.TestimoniFirstP {
+    font-size: 1vw;
+    width: 23vw;
+    font-weight: 500;
+    color:  #4C526A;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    margin-top: 14%;
+
+}
+
+.TestimoniSecondP {
+    font-weight: 600;
+    font-size:  1vw;;
+    color: #020D37;
+    font-family: 'Inter', sans-serif;
+
+}
+
+
+.TestimoniThiredP {
+    font-weight: 500;
+    font-size: 1vw;
+    color:  #ACAFB8;
+    font-family: 'Inter', sans-serif;
+    margin-top: 4%;
+    margin-bottom: 13%;
+}
+
+
+.test1 {
+    margin-top: 10%;
+    width: 3vw;
+}
+
+.test2 {
+    margin-top: 5%;
+    width: 10vw;
+}
+
+
+
+/* Tablet */
+@media (min-width:481px) and (max-width:768px) {
+    
+   .Testimoni {
+    width:  43vw;
+   }
+
+   .test1 {
+    width: 4vw;
+   }
+
+   .TestimoniFirstP {
+    text-align: center;
+    font-size: 2vw;
+    width: 37vw;
+   }
+
+   .test2 {
+    width: 14vw;
+   }
+
+   .TestimoniSecondP {
+    font-size: 2vw;
+   }
+
+   .TestimoniThiredP {
+    font-size: 2vw;
+   }
+    
+}
+
+
+
+
+/* mobile */
+@media (min-width:320px) and (max-width:481px) {
+
+    .Testimoni {
+        width:85vw;
+       }
+    
+       .test1 {
+        width: 8vw;
+       }
+    
+       .TestimoniFirstP {
+        text-align: center;
+        font-size: 4vw;
+        width: 79vw;
+       }
+    
+       .test2 {
+        width: 24vw;
+       }
+    
+       .TestimoniSecondP {
+        font-size: 6vw;
+       }
+    
+       .TestimoniThiredP {
+        font-size: 4vw;
+       }
+
+}
