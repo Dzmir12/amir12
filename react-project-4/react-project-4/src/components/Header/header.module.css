@@ -1,0 +1,123 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+@font-face {
+    font-family:pulp ;
+    src: url(../../assets/fonts/PulpDisplay-Regular.ttf);
+}
+
+.header {
+    width: 100%;
+    height: 71px;
+    background-color: white;
+    margin-top: 1%;
+    border-radius: 6px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.headerContainer {
+    width: 97%;
+    height: 71px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+
+.headerContainer1 {
+    width: 30%;
+    justify-content: space-between;
+    display: flex;
+    margin-top: 2%;
+}
+
+
+.headerContainer1P {
+    font-size: 0.9rem;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+   
+}
+
+.pContainer {
+    width: 81px;
+    height: 33px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+.pContainer:hover {
+    background-color:  #4361EE;
+    color: white;
+}
+
+#fixed {
+    width: 136px;
+}
+
+.headerContainer2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    margin-right: 2%;
+}
+
+
+.input {
+    width: 222px;
+    height: 47px;
+    border-radius: 6px;
+    border: 1px solid  #E7E8EF;
+    font-weight: 400;
+    font-size: 16px;
+    color:  #8C8F9F;
+    padding: 0 16%;
+}
+
+.inputContainer {
+    display: flex;
+    position: relative;
+}
+
+.inputImage {
+    position: absolute;
+    top: 33%;
+    left: 6%;
+}
+
+.headerLogoContainer2 {
+    width: 178px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.Container2P1 {
+    font-weight: 400;
+    font-size: 16px;
+    font-family: pulp, sans-serif;
+    color:  #171923;
+    
+}
+
+.Container2P2 {
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    color:  #8C8F9F;
+    margin-top: 3%;
+}
+
+.PContainer2 {
+    margin-left: 4%;
+}
+
+.arrow {
+    margin-left: 10%;
+}
+
+

@@ -1,0 +1,18 @@
+
+.story {
+    width: 100px;
+    height: 101px;
+}
+
+.storyP {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    color: #171923;
+    margin-top: 4%;
+    width: 6vw;
+}
+
+.circle {
+    margin-left: 12%;
+}

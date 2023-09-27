@@ -1,0 +1,23 @@
+@font-face {
+    font-family:pulp ;
+    src: url(../../assets/fonts/PulpDisplay-Regular.ttf);
+}
+
+.logo {
+    display: flex;
+    align-items: center; 
+    margin-left: 10%;
+    margin-top: 8%;
+}
+
+.logo1 {
+    width: 2.5rem;
+}
+.logoP {
+    font-family: pulp, sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #000000;
+    margin-left: 3%;
+    
+}

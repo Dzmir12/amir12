@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+.frame {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-left: 2%;
+}
+
+.frameInput {
+    width: 700px;
+    height: 47px;
+    border-radius: 8px;
+    background-color:  #FAFBFF;
+    font-weight: 400;
+    font-size: 14px;
+    color:  #5B5D67;
+    font-family: 'Inter', sans-serif;
+    border: none;
+    margin-top: 2%;
+    padding: 0 2%;
+}
+
+.rectangle {
+    margin-top: 2%;
+}
