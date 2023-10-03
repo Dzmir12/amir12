@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap');
+/* font-family: 'Montserrat', sans-serif; */
+
+.Content1LeftP {
+    font-size: 95px;
+    font-weight: 700;
+    width: 573px;
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    margin-top: 8%;
+
+}
+
+.Orange {
+    color:#F48E28;
+}
+
+.Content1LeftSecondP {
+    font-size: 18px;
+    font-weight: 500;
+    width: 622px;
+    color:  #000000;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 6%;
+}
+
+.ContentLeftButtonContainer {
+    display: flex;
+    gap: 40px;
+    margin-top: 10%;
+    align-items: center;
+}
+
+.ContentLeftButton {
+    width: 248px;
+    height: 86px;
+    border-radius: 15px;
+    background: linear-gradient(180deg, #EFAB68 0%, #F48E28 100%);
+    color: white;
+    font-weight: 700;
+    font-size: 26px;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+
+}
+
+.playButtonContainer {
+    display: flex;
+    align-items: center;
+}
+
+
+
+.playButtonP {
+    font-weight: 700;
+    font-size: 26px;
+    color:#000000;
+    font-family: 'Montserrat', sans-serif;
+}

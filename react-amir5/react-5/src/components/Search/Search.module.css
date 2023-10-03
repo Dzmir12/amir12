@@ -1,0 +1,33 @@
+.search {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.input {
+    width: 393px;
+    height: 65px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px #0000001A;
+    border: none;
+    padding: 0 24% 0 13%;
+}
+
+.searchicon {
+    position: absolute;
+    left: 4%;
+}
+
+.shopingBox {
+    position: absolute;
+    border-left: 2px solid  #ADADAD;
+    left: 81%;
+    height: 50px;
+    padding: 0 4%;
+    
+}
+
+.shopingBoximg {
+    bottom: 9%;
+    position: absolute;
+}

@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap');
+/* font-family: 'Montserrat', sans-serif; */
+
+.resturantUtilities {
+    width: 100%;
+    display: flex;
+    gap: 42px;
+    margin-top: 5%;
+
+    
+}
+
+.resturantUtilitiesContainer {
+    width: 484px;
+    height: 486px;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF),linear-gradient(0deg, rgba(182, 182, 182, 0), rgba(182, 182, 182, 0));
+    box-shadow: 0px 20px 80px 0px #00000026;
+    border-radius: 35px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.resturantUtilitiesH4 {
+    font-size: 26px;
+    font-weight: 700;
+    color:  #000000;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 9%;
+}
+
+
+
+.resturantUtilitiesP {
+    font-size: 18px;
+    font-weight: 500;
+    color:  #000000;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 11%;
+    width: 380px;
+    text-align: center;
+}
+
+.resturantUtilitiesiconContainer {
+    position: relative;
+    margin-top: 17%;
+}
+
+.resturantUtilitiesicon {
+    position: absolute;
+    right: 23%;
+    top: 25%;
+}

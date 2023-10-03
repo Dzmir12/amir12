@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap');
+/* font-family: 'Montserrat', sans-serif; */
+
+.clientOpenion {
+    width: 100%;
+    display: flex;
+    margin-top: 5%;
+    align-items: center;
+}
+
+.clientOpenionLeft {
+    width: 50%;
+    
+}
+
+.clientOpenionContainer {
+    width: 723px;
+    height: 445px;
+    border-radius: 35px;
+    box-shadow: 0px 0px 50px 0px #0000001A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+    position: relative;
+    
+}
+
+.clientOpenionimg {
+    width: 50%;
+}
+
+.clientOpenionPContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.clientOpenionH5 {
+    font-size: 18px;
+    font-weight: 600;
+    color:  #000000;
+    font-family: 'Montserrat', sans-serif;
+    width: 113%;
+}
+
+.clientOpenionP {
+    font-size: 13px;
+    font-weight: 400;
+    color:  #000000;
+    font-family: 'Montserrat', sans-serif;
+    width: 113%;
+}
+
+.clientOpenion2P {
+    font-size: 18px;
+    font-weight: 500;
+    color:  #000000;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    width: 621px;
+    margin-top: 4%;
+}
+
+.clientOpenionContainer1 {
+    display: flex;
+    align-items: center;
+    gap: 10%;
+}
+
+.arrowl {
+    position: absolute;
+    right: 94%;
+}
+
+.arrowR {
+    position: absolute;
+    left: 94%;
+}
+
+.clientOpenionberger {
+    width: 648px;
+    margin-left: 7%;
+}
