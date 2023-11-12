@@ -1,0 +1,122 @@
+
+.weatherExtraInfo {
+    
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 41px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.37);
+    /* width: 90%; */
+    /* max-width: 400px; */
+    /* margin: 8% auto; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-color: white;
+    padding: 56px;
+    width: 133%;
+    margin-top: 2rem;
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.WeatherExtraInfoFixed {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 41px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.37);
+    /* width: 90%; */
+    /* max-width: 400px; */
+    /* margin: 8% auto; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-color: white;
+    padding: 56px;
+    width: 133%;
+    margin-top: 2rem;
+    position: relative;
+    margin-bottom: 2rem;
+    padding: 70px;
+}
+
+.weatherExtraInfoImage {
+    position: absolute;
+    top: -18%;
+}
+
+.weatherExtraInfoContainer {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    width: 123%;
+    justify-content: space-between;
+}
+
+.weatherExtraInfoContainerFixed  {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    width: 123%;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.weatherExtraInfoContainerFixedi  {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    width: 123%;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.weatherExtraInfoContainerFixedw {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    width: 123%;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+
+.weatherExtraInfoFirstP {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.weatherExtraInfoSecondP {
+    font-size: 1.9rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+
+.weatherExtraInfoSecondPFixed {
+    font-size: 1.9rem;
+    font-weight: 600;
+    display: flex;
+    align-items: flex-start;
+}
+
+.weatherExtraInfoSecondPFixed2 {
+    font-size: 1.9rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.weatherExtraInfoText2 {
+    font-size: 1.2rem;
+}
+
+.weatherExtraInfoText {
+    font-size: 1rem;
+}

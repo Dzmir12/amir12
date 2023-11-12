@@ -1,0 +1,17 @@
+.quizeTimerContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-bottom: 1px solid #9c9c9c;
+    max-width: 0 1px;
+
+}
+
+.quizeprogress {
+    height: 10px;
+    transition-duration: 1s;
+    width: 0;
+    transition-timing-function:linear ;
+    border-radius: 100px;
+}

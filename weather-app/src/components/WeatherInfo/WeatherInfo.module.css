@@ -1,0 +1,202 @@
+/* 
+.weatherInfo {
+    background: linear-gradient(135deg,rgba(255,255,255,0.1),rgba(255,255,255,0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 41px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.37);
+    width: 25%;
+    height: 50vh;
+    margin-top: 8%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 10px;
+   background-color: white;
+}
+
+.weatherIcon {
+   
+    width: 48%;
+    margin-top: 8%;
+
+}
+
+.weatherTemp {
+    font-size: 297%;
+    font-weight: 800;
+    display: flex;
+    align-items: flex-start;
+    margin-left: 6%;
+}
+
+.weatherDegree {
+    font-size: 44%;
+}
+
+.weatherLocationName {
+    color: black;
+    text-shadow: 2px 2px rgba(50, 50, 70, 0.5);
+    font-weight: bold;
+}
+
+.weatherDesContainer {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin-top: 3%;
+}
+
+.weatherSunriseContainer{
+
+    display: flex;
+    align-items: center;
+}
+
+.weatherSunriseDesContainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 8%;
+    margin-left: 8%;
+}
+
+.weatherP {
+    font-weight: bold;
+    width: 115%;
+}
+
+.wind {
+    width: 25%;
+}  */
+
+.hide {
+  display: none;
+}
+
+.weatherInfo {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 41px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.37);
+    width: 90%; 
+    max-width: 400px; 
+    /* margin: 8% auto;  */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-color: white;
+    padding: 20px; 
+  }
+
+  .weatherInfoFixed {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 41px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.37);
+    width: 100%; 
+    max-width: 452px; 
+    /* margin: 8% auto;  */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-color: white;
+    padding: 20px; 
+    margin-bottom: 2rem;
+  }
+
+  .weatherInfoFixedi {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 41px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.37);
+    width: 100%; 
+    max-width: 532px; 
+    /* margin: 8% auto;  */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-color: white;
+    padding: 20px; 
+    margin-bottom: 2rem;
+  }
+  
+  .weatherIcon {
+    width: 50%; /* Adjust the size of the weather icon */
+    margin-top: 8%;
+  }
+  
+  .weatherTemp {
+    font-size: 200%; /* Adjust font size for smaller screens */
+    font-weight: 800;
+    display: flex;
+    align-items: flex-start;
+    margin-left: 6%;
+  }
+  
+  .weatherDegree {
+    font-size: 70%; /* Adjust font size for smaller screens */
+  }
+  
+  .weatherLocationName {
+    color: black;
+    text-shadow: 2px 2px rgba(50, 50, 70, 0.5);
+    font-weight: bold;
+  }
+  
+  .weatherDesContainer {
+    display: flex;
+    flex-direction: column; /* Stack the description containers on smaller screens */
+    align-items: center; /* Center the content */
+    margin-top: 3%;
+  }
+  
+  .weatherSunriseContainer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; /* Add some spacing between the description containers */
+  }
+  
+  .weatherSunriseDesContainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 8%;
+    margin-left: 8%;
+  }
+  
+  .weatherP {
+    font-weight: bold;
+    width: 115%;
+  }
+  
+  .wind {
+    width: 30%; /* Adjust the size of the wind icon */
+  }
+
+  .weatherFixed {
+    display: flex;
+    align-items: center;
+    margin-top: 3%;
+    width: 80%;
+    justify-content: space-between;
+  }
+
+  .weatherIconFix {
+    display: none;
+  }
+
+ 
+  
+
+  
+
+ 

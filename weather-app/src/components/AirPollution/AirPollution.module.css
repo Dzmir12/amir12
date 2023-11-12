@@ -1,0 +1,217 @@
+/* .airPollution {
+   
+        background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border-radius: 41px;
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.37);
+        width: 80%; 
+        background-color: white;
+      
+}
+
+.airPollutionTitleContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7%;
+    margin-left: 6%;
+    margin-right: 7%;
+    align-items: center;
+}
+
+.airPollutionIndex {
+    width: 14%;
+    padding: 14px;
+    border-radius: 31px;
+    text-align: center;
+    font-size: large;
+    font-weight: 500;
+}
+
+.airPollutionFirstP {
+    font-size: 1.2rem;
+}
+
+.airPollutionSecondP {
+    font-size: 0.8rem;
+}
+
+.airPollutionNumber {
+    font-size: 4rem;
+    margin-top: 17%;
+}
+
+.airPollution1 {
+    background-color: green;
+}
+
+.airPollution2 {
+    background-color: lightseagreen;
+}
+
+.airPollution3 {
+    background-color: yellow;
+}
+
+.airPollution4 {
+    background-color: red;
+}
+
+.airPollutionIcon{
+display: flex;
+align-items: center;
+width: 29%;
+gap: 0%;
+justify-content: space-between;
+} */
+
+.airPollution {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0)
+  );
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 41px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.37);
+  width: 80%;
+  background-color: white;
+  padding: 30px;
+}
+
+.airPollutionFixed  {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0)
+  );
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 41px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.37);
+  width: 100%;
+  background-color: white;
+  padding: 30px;
+}
+
+.airPollutionContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5%;
+}
+
+.airPollutionTitleContainer {
+  display: flex;
+  align-items: center;
+  margin-top: 5%;
+  flex-direction: row;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.airPollutionTitleContainerFixed {
+    display: flex;
+    align-items: center;
+    margin-top: 5%;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.airPollutionTitle2Container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 3rem;
+  justify-content: space-between;
+}
+
+.airPollutionTitle2ContainerFixed {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3rem;
+  justify-content: space-between;
+}
+
+.airPollutionIndex {
+  width: 200px;
+  padding: 20px;
+  border-radius: 31px;
+  text-align: center;
+  font-size: large;
+  font-weight: 500;
+}
+
+.airPollutionFirstP {
+  font-size: 1.2rem;
+}
+
+.airPollutionSecondP {
+  font-size: 0.8rem;
+}
+
+.airPollutionNumber {
+  font-size: 3rem;
+  margin-top: 3rem;
+}
+
+.airPollutionNumberFixed {
+  font-size: 3rem;
+  margin-top: 1rem;
+}
+
+.airPollution1 {
+  background-color: green;
+}
+
+.airPollution2 {
+  background-color: lightseagreen;
+}
+
+.airPollution3 {
+  background-color: yellow;
+}
+
+.airPollution4 {
+  background-color: red;
+}
+
+.airPollutionIcon {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.airPollutionIconFixed {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 1rem;
+    justify-content: center;
+}
+
+.airPollutionDContainer {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+}
+
+.airPollutionDContainerFixed {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.airPollutionDContainerFixedw {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}

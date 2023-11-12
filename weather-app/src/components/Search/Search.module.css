@@ -1,0 +1,59 @@
+/* input {
+   padding: 20px 58px;
+    border-radius: 20px;
+   border: none;
+   width: 100%;
+   border: 1px solid rgba(255, 255, 255, 0.18);
+   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.37);
+   
+}
+
+.icon {
+    display: none;
+}
+
+.inputContainer {
+    display: flex;
+    position: relative;
+    align-items: center;
+    width: 35%;
+    margin-top: 3%;
+}
+
+.image {
+    position: absolute;
+    left: 2%;
+    
+} */
+
+/* Search.module.css */
+.inputContainer {
+    display: flex;
+    position: relative;
+    align-items: center;
+    margin-top: 3%;
+    width: 100%; /* Use 100% width for responsiveness */
+    max-width: 433px; /* Set a max width if needed */
+    margin: 2% auto; /* Center the container horizontally */
+  }
+  
+  input {
+    padding: 20px 58px;
+    border-radius: 20px;
+    border: none;
+    width: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.37);
+    max-width: 100%; /* Ensure the input doesn't overflow its container */
+
+  }
+  
+  .icon {
+    display: none;
+  }
+  
+  .image {
+    position: absolute;
+    left: 10px; /* Adjust the positioning as needed */
+  }
+  

@@ -1,0 +1,68 @@
+.calc {
+    width: 563px;
+    background-color: gray;
+    box-shadow: 0px 2px 30px 0px #0000001A;
+    height: 80vh;
+    margin-top: 8%;
+    border-radius: 40px;
+   
+
+    .display {
+      width: 100%;
+      background-color: darkgreen;
+      border: 12px solid black;
+      height: 15vh;
+      font-size: 4rem;
+      padding: 2% 4%;
+    }
+
+    .buttons{
+        margin-top: 4%;
+        width:100%;
+        background-color: black;
+        height: 62vh;
+        border-bottom-left-radius: 40px;
+        border-bottom-right-radius: 40px;
+        padding: 2% 4%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2%;
+    }
+    
+
+    .btn {
+      width: 23%;
+      background-color: rgb(148, 146, 146);
+      font-size: 2rem;
+      color: white;
+      text-align: center;
+      height: 10vh;
+      border-radius: 10px;
+      border: none;
+  
+      &:hover {
+         
+          background-color: rgb(109, 103, 103);
+          cursor: pointer;
+          color: black;
+      }
+  
+      p{
+          padding: 12% 4%;
+  
+      }
+  
+      &.fixed {
+          width: 48%;
+          background-color: orange;
+         
+      }
+
+      &.green{
+         background-color: green;
+      }
+  }
+   
+
+
+}
