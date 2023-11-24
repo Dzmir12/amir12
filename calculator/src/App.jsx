@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import Screen from './components/Screen/Screen';
 import Wrapper from './components/Wrapper/Wrapper';
 import ButtonBox from './components/ButtonBox/ButtonBox';
